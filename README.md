@@ -7,3 +7,4 @@ git commit -m "hit"
 
 git push
 
+I'm learning about git at hackademy
