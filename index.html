@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A web page about the famous physicist Albert Einstein">
+    <meta name="keywords" content="Albert Einstein, physicist, biography">
+    <title>Biography of Albert Einstein</title>
+</head>
+<body>
+    <!-- Michael Friedmann, Student Number: 9012950 -->
+    <header>
+        <h1>Biography of Albert Einstein</h1>
+    </header>
+    <main>
+        <section id="biography">
+            <h2>Biography</h2>
+            <blockquote cite="https://www.biography.com/scientist/albert-einstein">
+                "Albert Einstein was born on March 14, 1879, in Ulm, Germany. He developed the theory of relativity, one of the two pillars of modern physics."
+            </blockquote>
+            <figure>
+                <img src="images/legacy.jpg" alt="Albert Einstein">
+                <figcaption>Albert Einstein</figcaption>
+            </figure>
+        </section>
+        <section id="quotes">
+            <h2>Famous Quotes</h2>
+            <p>Quote 1: <q cite="https://www.goodreads.com/quotes/556441-the-important-thing-is-not-to-stop-questioning-curiosity-has">"The important thing is not to stop questioning. Curiosity has its own reason for existing."</q></p>
+            <p>Quote 2: <q cite="https://www.goodreads.com/quotes/1938-imagination-is-more-important-than-knowledge-for-knowledge-is-limited">"Imagination is more important than knowledge. For knowledge is limited, whereas imagination embraces the entire world."</q></p>
+            <p>Quote 3: <q cite="https://www.goodreads.com/quotes/10923-life-is-like-riding-a-bicycle-to-keep-your-balance-you">"Life is like riding a bicycle. To keep your balance you must keep moving."</q></p>
+         <section id="videos">
+                <h2>Video</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/KyjQJBDD5V4?si=qANhSgCbQOf0gaIV&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </section>
+            
+    </main>
+    <aside>
+        <section id="resources">
+            <h2>Resources</h2>
+            <ul>
+                <li><a href="https://www.biography.com/scientist/albert-einstein" target="_blank" title="Albert Einstein Biography">Albert Einstein Biography</a></li>
+                <li><a href="https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/" target="_blank" title="Nobel Prize Biography">Nobel Prize Biography</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Albert_Einstein" target="_blank" title="Albert Einstein Wikipedia">Albert Einstein Wikipedia</a></li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Form</h2>
+            <form action="https://example.com/submit" method="post">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" id="name" name="name" class="form-control" required placeholder="Enter your name" autofocus>
+                
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" id="email" name="email" class="form-control" required placeholder="Enter your email">
+                
+                <label for="message" class="form-label">Message:</label>
+                <textarea id="message" name="message" class="form-control" required placeholder="Enter your message"></textarea>
+                
+                <label for="reason" class="form-label">Reason for Contact:</label>
+                <select id="reason" name="reason" class="form-control">
+                    <option value="feedback" selected>Feedback</option>
+                    <option value="question">Question</option>
+                    <option value="other">Other</option>
+                </select>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </aside>
+    <footer>
+        <p>&copy; 2024 Michael Friedmann. All rights reserved.</p>
+    </footer>
+</body>
+</html>
